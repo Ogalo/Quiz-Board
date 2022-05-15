@@ -58,5 +58,59 @@
  padding-top: 20px;
  text-align: right;
  margin-right: 20px; 
+ font-weight: 600;
+}
+
+.margin {
+  background-color: #17C893;
+  height: 40px;
+}
+
+.marks > h3 {
+  text-align: right;
+  margin-top: 15px;
+  margin-right: 25px;
+  font-weight: 530;
+}
+
+.marks > p {
+  text-align: left;
+  margin-left: 25px;
+  margin-bottom: 25px;
+  margin-top: 20px;
+}
+
+.answers > h4 {
+  margin-left: 40px;
+  margin-bottom: 15px;
+}
+
+.answers > ul {
+  margin-left: 25px;
+}
+
+.answers > ul > li{
+  height: 40px
+}
+
+.clearSaved {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30px;
+  margin-right: 40px;
+
+}
+
+.butt2 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30px;
+  margin-right: 40px;
+  margin-top: 40px;
+}
+
+.butt2 > button {
+  padding: 8px;
+  border-radius: 10px;
 }
 
