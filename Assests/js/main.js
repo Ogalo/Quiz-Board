@@ -86,9 +86,9 @@ function deselectAnswers(){
 };
 
 function getSelected(){
-  let answerEl 
-  answerEls.forEach(answerEl => {
-    if(answerEl.checked){
+  let answer 
+  answerEls.forEach(answerEls => {
+    if(answerEls.checked){
       answer = answerEls.id
     }
   })
@@ -107,7 +107,11 @@ doneBtn.addEventListener("click", () => {
     }
     else {
       quiz.innerHTML = 
-      `<h3>You answered ${score}/${quizData.length} questions correctly </h3>`
+      `<h3>You answered ${score}/${quizData.length} questions correctly </h3> 
+      
+      <button onclick = "location.reload()" > Reload </button>
+      `
+      
 
      
           }
