@@ -43,3 +43,20 @@
   padding: 6px;
 }
 
+.questHeader{
+  background-color: #ECE2E2;
+  height: 120px;
+}
+
+.questHeader > .quest1 > h2 {
+  text-align: center;
+  padding-top: 50px;
+  
+}
+
+.questHeader > .timer {
+ padding-top: 20px;
+ text-align: right;
+ margin-right: 20px; 
+}
+
