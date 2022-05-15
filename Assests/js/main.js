@@ -107,7 +107,7 @@ doneBtn.addEventListener("click", () => {
     }
     else {
       quiz.innerHTML = 
-      <h2>You answered ${score}/${quizData.length} questions correctly </h2>
+      <h3>You answered ${score}/${quizData.length} questions correctly </h3>
 
      
           }
