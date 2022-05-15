@@ -89,7 +89,7 @@ function getSelected(){
   let answerEl 
   answerEls.forEach(answerEl => {
     if(answerEl.checked){
-      answer = answerEl.id
+      answer = answerEls.id
     }
   })
   return answer
@@ -107,7 +107,7 @@ doneBtn.addEventListener("click", () => {
     }
     else {
       quiz.innerHTML = 
-      <h3>You answered ${score}/${quizData.length} questions correctly </h3>
+      `<h3>You answered ${score}/${quizData.length} questions correctly </h3>`
 
      
           }
