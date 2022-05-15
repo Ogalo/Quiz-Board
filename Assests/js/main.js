@@ -107,9 +107,9 @@ doneBtn.addEventListener("click", () => {
     }
     else {
       quiz.innerHTML = 
-      `<h3>You answered ${score}/${quizData.length} questions correctly </h3> 
+      `<h3 style = "margin-top: 20px; text-align: center;" >You score is ${score}/${quizData.length} questions correctly </h3> 
       
-      <button onclick = "location.reload()" > Reload </button>
+      <button style = "color : red; text-align: center; margin-left: 700px; " onclick = "location.reload()" > Reload </button>
       `
       
 
