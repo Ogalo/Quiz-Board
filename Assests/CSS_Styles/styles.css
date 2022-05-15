@@ -1,0 +1,45 @@
+*{
+  margin: 0px;
+  padding: 0;
+  overflow: auto;
+  text-decoration: none;
+  font-family: 'Roboto Flex', sans-serif;
+}
+
+.navBar {
+  justify-content:flex-end;
+  display: flex;
+}
+
+.navBar >ul {
+  margin-top: 50px;
+  margin-left: 50px;
+  
+}
+
+.navBar > ul > li {
+  justify-content: space-between;
+  padding: 20px;
+  display:inline-block
+  
+  
+}
+
+.titleName {
+  text-align: center;
+}
+
+.titleName > h1 {
+  margin-top: 40px;
+  width: 100%;
+  padding-top: 100px;
+  border-top: 2px solid grey;
+}
+
+.titleName > button {
+  margin-top: 100px;
+  background-color : lightgray;
+  border-radius: 8px; 
+  padding: 6px;
+}
+
