@@ -99,7 +99,7 @@ doneBtn.addEventListener("click", () => {
   const answer = getSelected()
   if(answer){
     if (answer === quizData[currentQuiz].correct) {
-      score++
+      score+=20
     }
     currentQuiz++
     if (currentQuiz < quizData.length){
@@ -107,9 +107,9 @@ doneBtn.addEventListener("click", () => {
     }
     else {
       quiz.innerHTML = 
-      `<h3 style = "margin-top: 20px; text-align: center;" >You score is ${score}/${quizData.length} questions correctly </h3> 
+      `<h3 style = "margin-top: 20px; text-align: center;" >You score is ${score}%</h3> 
       
-      <button style = "color : red; text-align: center; margin-left: 700px; " onclick = "location.reload()" > Reload </button>
+      <button style = "color : red; text-align: center; margin-left: 660px; " onclick = "location.reload()" > Reload </button>
       `
       
 
